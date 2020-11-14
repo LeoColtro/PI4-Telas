@@ -1,0 +1,99 @@
+/* Navbar */
+#navbar{
+    background-color: #311d3f;
+}
+
+#cervejas{
+    color:white;
+    font-style: oblique;
+}
+
+#vinhos{
+    color: white;
+    font-style: oblique;
+}
+
+#destilados{
+    color: white;
+    font-style: oblique;
+}
+
+
+#octobeer{
+    color: #e23e57;
+    font-size: x-large;
+    font-style: oblique;
+}
+
+#cadastrar{
+    background-color: #311d3f;
+    color: white;
+    font-style: italic;
+    }
+
+#btnCarrinho1{
+    margin-left: 10px;
+    border-color: #e23e57;
+    background-color: #e23e57;
+}
+
+#btnCarrinho2{
+    background-color: #e23e57;
+    color: #311d3f;
+    font-size: 22px;
+}
+/* Navbar */
+
+
+/* Footer */
+p.rodape{
+    line-height: 30%;
+    color: white;
+}
+    
+#rodape{
+    background-color: #311d3f;
+}
+
+/* Footer */
+
+/* Principal */
+
+.main{
+    margin-top: 80px;
+}
+
+#divProdutos{
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: lightgray;
+    margin-bottom: 10px;
+}
+
+#tituloProdutos{
+    margin-left: 12px;
+    margin-top: 3px;
+}
+#ip1{
+    margin-left: 3px;
+    margin-top: 10px;
+}
+
+#divDadosPedido{
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: lightgray;
+    margin-bottom: 10px;
+}
+
+#tituloDados{
+    margin-left: 12px;
+    margin-top: 3px;
+}
+
+.dadosPedido{
+    margin-left: 12px;
+    margin-bottom: 5px;
+}

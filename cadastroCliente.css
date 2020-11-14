@@ -1,0 +1,101 @@
+body {
+    padding-top: 56px;
+  }
+  
+  p.rodape{
+    line-height: 30%;
+  }
+  
+  #navbar{
+  background-color: #311d3f;
+  }
+  
+  #octobeer{
+  color: #e23e57;
+  font-size: x-large;
+  font-style: oblique;
+  }
+  
+  #cervejas{
+  color:white;
+  font-style: oblique;
+  }
+  
+  #vinhos{
+  color: white;
+  font-style: oblique;
+  }
+  
+  #destilados{
+  color: white;
+  font-style: oblique;
+  }
+  
+  #button{
+  background-color: #e23e57;
+  }
+  
+  #button01{
+  color: #311d3f;
+  font-size: 30px;
+  align-items: center;
+  }
+  
+  p.rodape{
+    color: white;
+  }
+  
+  #rodape{
+    background-color: #311d3f;
+  }
+
+  #main{
+    margin-top: 20px;
+    margin-bottom: 600px;
+  }
+
+  #insideCol1{
+    background-color: white;
+    margin-top: 16px;
+    margin-bottom: 7px;
+    margin-left: 7px;
+
+    border-color: #311d3f;
+    border-style: solid;
+    border-radius: 10px;
+  }
+
+  #insideCol2{
+    background-color: white;
+    margin-top: 16px;
+    margin-bottom: 7px;
+    margin-left: 7px;
+
+    border-color: #311d3f;
+    border-style: solid;
+    border-radius: 10px;
+  }
+
+  #principal{
+    font-style: italic;
+  }
+
+  #dadosPessoais{
+      text-align: center;
+  }
+
+  #endereco{
+      text-align: center;
+  }
+
+  #btnCarrinho1{
+    margin-left: 10px;
+    border-color: #e23e57;
+    background-color: #e23e57;
+  }
+
+  #btnCarrinho2{
+    background-color: #e23e57;
+    color: #311d3f;
+    font-size: 22px;
+  }

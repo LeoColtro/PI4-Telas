@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>OctoBeer - Cadastrar nova categoria</title>
+
+   <!-- FontesAwesome para icones -->
+   <script src="https://kit.fontawesome.com/9bbf281396.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Link para CSS -->
+  <link href="css/cadastroCategoria.css" rel="stylesheet">
+
+  <!-- Link para JScript -->
+  <script src="js/cadastroCategoria.js"></script>
+</head>
+
+<body>
+
+ <!-- NavBar -->
+ <nav class="navbar navbar-expand-md navbar fixed-top" id="navbar">
+  <a class="navbar-brand" href="centralGestao.html" id="octobeer">OctoBeer</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" id="button">
+  <span id="button01"><i class="fas fa-chevron-down"></i></span>
+  </button>
+
+<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+<ul class="navbar-nav mr-auto">
+    <!-- Página principal -->
+    <li class="nav-item">
+        <a class="nav-link" href="centralGestao.html" id="paginaPrincipal">Página principal</a>
+    </li>
+
+    <!-- Produtos -->
+    <li class="nav-item">
+        <a class="nav-link" href="centralProdutos.html" id="produtos">Consultar produtos</a>
+    </li>
+
+    <!-- Cadastros -->
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="cadastros" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cadastros</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" href="cadastroProduto.html">Cadastro de produtos</a>
+          <a class="dropdown-item" href="cadastroFuncionario.html">Cadastro de funcionários</a>
+          <a class="dropdown-item" href="cadastroFornecedor.html">Cadastro de fornecedor</a>
+          <a class="dropdown-item" href="cadastroMarca.html">Cadastro de marca</a>
+        </div>
+    </li>
+   
+</ul>
+
+</div>
+</nav>
+<!-- /NavBar -->
+
+<!-- Principal -->
+<div class="container" id="main">
+    <h1 id="principal">OctoBeer</h1>
+    <div class="row">
+        <!-- Coluna 1/2 -->
+        <div class="col" id="col1">
+            <div class="container" id="insideCol1">
+                <br>
+                <h3>Cadastrar nova categoria</h3>
+
+                <hr>
+
+                <div class="row">
+                  <div class="col">
+                    <h5 id="dadosPessoais">Dados da categorias</h5>
+                    <input class="form-control" type="text" placeholder="Nome" id="inputNome">
+                    <br>
+                    
+                    <div class="row justify-content-start">
+
+                      <div class="col">
+                        <select class="form-control" name="listCategorias" id="listaCategorias">
+                          <option>Categoria principal</option>
+                          <option>Vinho</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <br>
+
+                    <h5>Descrição</h5>
+                    <textarea rows="10" cols="115"></textarea>
+                   </div>
+                </div>
+
+                <br>
+
+                <div class="text-center">
+                    <button class="btn btn-success" type="submit" onclick="cadastrarCategoria()">Cadastrar categoria</button>
+                    <br>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="py-5" id="rodape">
+
+    <!-- Informações da empresa -->
+    <div class="container">
+      <!-- Dados da empresa -->
+      <p class="rodape">Telefone fixo: (41) 3333-3333</p>
+      <p class="rodape">Telefone celular: (41) 99999-9999</p>
+      <p class="rodape">E-mail: leo.jcoltro@gmail.com</p>
+      <p class="rodape">Endereço: Rua Pedro Zageski, 147 - Estação, Araucária, Paraná</p>
+
+      <!-- Link facebook -->
+      <a href="https://www.facebook.com/leonardojose.coltro.31/" id="icone">
+        <span style="font-size: 40px; color: white;">
+        <i class="fab fa-facebook-square"></i>
+        </span>
+      </a>
+
+      <!-- Link instagram -->
+      <a href="https://www.instagram.com/leonardojosecoltro/?hl=en">
+        <span style="font-size: 40px; color: white;">
+        <i class="fab fa-instagram-square"></i>
+        </span>
+      </a>
+
+      <!-- Link para localização -->
+      <a href="localizacao.html">
+        <span style="font-size: 37px; color: white;">
+        <i class="fas fa-map-marked-alt"></i>
+        </span>
+      </a>
+    </div>
+    <!-- /Dados da empresa -->
+
+    <!-- Copyright -->
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; OctoBeer 2020</p>
+    </div>
+    <!-- /Copyright -->
+
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

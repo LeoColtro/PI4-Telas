@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>OctoBeer - Central de gestão da loja</title>
+
+  <!-- Bootstrap core -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS da página -->
+  <link href="css/centralGestao.css" rel="stylesheet">
+
+  <!-- Fonte para icones -->
+  <script src="https://kit.fontawesome.com/9bbf281396.js" crossorigin="anonymous"></script>
+
+  <!-- Link para JScript -->
+  <script src="js/centralGestao.js"></script>
+
+</head>
+
+<body>
+  <!-- NavBar -->
+ <nav class="navbar navbar-expand-md navbar fixed-top" id="navbar">
+  <a class="navbar-brand" href="centralGestao.html" id="octobeer">OctoBeer</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" id="button">
+  <span id="button01"><i class="fas fa-chevron-down"></i></span>
+  </button>
+
+<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+<ul class="navbar-nav mr-auto">
+    <!-- Página principal -->
+    <li class="nav-item">
+        <a class="nav-link" href="centralGestao.html" id="paginaPrincipal">Página principal</a>
+    </li>
+
+    <!-- Produtos -->
+    <li class="nav-item">
+        <a class="nav-link" href="centralProdutos.html" id="pedidos">Consultar produtos</a>
+    </li>
+
+    <!-- Cadastros -->
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="cadastros" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cadastros</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" href="cadastroProduto.html">Cadastro de produtos</a>
+          <a class="dropdown-item" href="cadastroCategoria.html">Cadastro de categorias</a>
+          <a class="dropdown-item" href="cadastroFuncionario.html">Cadastro de funcionários</a>
+          <a class="dropdown-item" href="cadastroFornecedor.html">Cadastro de fornecedor</a>
+          <a class="dropdown-item" href="cadastroMarca.html">Cadastro de marca</a>
+        </div>
+    </li>
+   
+</ul>
+
+</div>
+</nav>
+<!-- /NavBar -->
+
+  <!-- Principal -->
+  <div class="container" id="divPrincipal">
+    <h3 id="titulo">Central de gestão - OctoBeer</h3>
+
+    <!-- Dados principais sobre pedidos -->
+    <div class="container">
+      <div class="row">
+        <div class="col" id="col1">
+          <h5 id="tituloCol1">Número de pedidos aprovados</h5>
+          <h6>2.103</h6>
+        </div>
+ 
+        <div class="col" id="col2">
+          <h5 id="tituloCol2">Valor total dos pedidos</h5>
+          <h6>R$21.207,54</h6>
+        </div>
+
+        <div class="col" id="col3">
+          <h5 id="tituloCol3">Número de pedidos cancelados</h5>
+          <h6>102</h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- Produtos -->
+    <h4 id="tituloProdutos">Pedidos</h4>
+    <div class="container" id="divPesquisaProdutos">
+
+      <!-- Barra de controle dos produtos -->
+      <div id="pesquisarProdutos">
+        
+        <form class="form-inline my-2 my-md-0">
+          <input class="form-control" type="text" placeholder="Pesquisar pedidos" size="114" id="formPesquisa">
+        </form>
+
+      </div>
+      <!-- /Barra de controle dos produtos -->
+
+      <!-- Produto 1 -->
+      <div>
+        <div class="row justify-content-start" id="p1">
+          <div class="col" id="colGeral">
+              <div class="row" id="ip1">
+                <!-- Dados do pedido -->
+                <div class="col-5" id="dadosPedido">
+                    <h4>Pedido número: #10524</h4>
+                    <p class="dadosPedido">Data de pedido: 10/10/2020</p>
+                    <p class="dadosPedido">Status do pedido: Entregue</p>
+                </div>
+                <!-- Nome do produto -->
+                <div class="col-3" id="nomeProduto">
+                </div>
+                <!-- Preço do produto -->
+                <div class="col-2">
+                    <p>Valor total do pedido: R$120,00</p>
+                </div>
+                <!-- Botão editar produto -->
+                <div class="col">
+                    <button class="btn btn-warning">Ver pedido</button>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!-- /Produto 1 -->
+
+    </div>
+  </div>
+  <!-- /Principal -->
+
+  <!-- Footer -->
+  <footer class="py-5" id="rodape">
+
+    <!-- Informações da empresa -->
+    <div class="container">
+      <!-- Dados da empresa -->
+      <p class="rodape">Telefone fixo: (41) 3333-3333</p>
+      <p class="rodape">Telefone celular: (41) 99999-9999</p>
+      <p class="rodape">E-mail: leo.jcoltro@gmail.com</p>
+      <p class="rodape">Endereço: Rua Pedro Zageski, 147 - Estação, Araucária, Paraná</p>
+
+      <!-- Link facebook -->
+      <a href="https://www.facebook.com/leonardojose.coltro.31/" id="icone">
+        <span style="font-size: 40px; color: white;">
+        <i class="fab fa-facebook-square"></i>
+        </span>
+      </a>
+
+      <!-- Link instagram -->
+      <a href="https://www.instagram.com/leonardojosecoltro/?hl=en">
+        <span style="font-size: 40px; color: white;">
+        <i class="fab fa-instagram-square"></i>
+        </span>
+      </a>
+
+      <!-- Link para localização -->
+      <a href="localizacao.html">
+        <span style="font-size: 37px; color: white;">
+        <i class="fas fa-map-marked-alt"></i>
+        </span>
+      </a>
+    </div>
+    <!-- /Dados da empresa -->
+
+    <!-- Copyright -->
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; OctoBeer 2020</p>
+    </div>
+    <!-- /Copyright -->
+
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

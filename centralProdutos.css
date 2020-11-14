@@ -1,0 +1,159 @@
+body {
+    padding-top: 56px;
+  }
+  
+  /* Navbar */
+  #navbar{
+  background-color: #311d3f;
+  }
+  
+  #octobeer{
+  color: #e23e57;
+  font-size: x-large;
+  font-style: oblique;
+  }
+  
+  #paginaPrincipal{
+  color:white;
+  font-style: oblique;
+  }
+  
+  #pedidos{
+  color: white;
+  font-style: oblique;
+  }
+  
+  #cadastros{
+  color: white;
+  font-style: oblique;
+  }
+  
+  #buttonNavToggler1{
+  background-color: #e23e57;
+  }
+  
+  #buttonNavToggler2{
+  color: #311d3f;
+  font-size: 30px;
+  align-items: center;
+  }
+
+  /* /Navbar */
+
+  /* Footer */
+  p.rodape{
+    color: white;
+    line-height: 30%;
+  }
+  
+  #rodape{
+    background-color: #311d3f;
+    margin-top: 10px;
+  }
+
+  /* /Footer */
+
+  /* Principal */
+  #titulo{
+      margin-top: 10px;
+  }
+
+  #divPrincipal{
+      margin-top: 5px;
+  }
+
+  #col1{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: lightgray;
+    margin-right: 2px;
+  }
+
+  #tituloCol1{
+      margin-top: 10px;
+  }
+
+  #col2{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: lightgray;
+    margin-right: 2px;
+  }
+
+  #tituloCol2{
+    margin-top: 10px;
+  }
+
+  #col3{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: lightgray;
+  }
+
+  #tituloCol3{
+    margin-top: 10px;
+  }
+
+  #tituloProdutos{
+      margin-top: 10px;
+  }
+
+  #divPesquisaProdutos{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: lightgray;
+  }
+
+  #formPesquisa{
+      margin-top: 22px;
+  }
+
+  #btnCadastroProduto{
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+  #btnCadastroCategoria{
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+  #p1{
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+  }
+
+  #ip1{
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  #imgProduto{
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    margin-left: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  
+  #nomeProduto{
+    margin-top: 53px;
+  }
+
+  #precoProduto{
+    margin-top: 53px;
+  }
+  #btnProduto{
+    margin-top: 45px;
+    margin-right: 10px;
+  }
+  /* /Principal */
